@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/OpenSans-BoldItalic.eot');
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 147, 140);
+    font-family: 'Open Sans';
+}
+
+*{
+    box-sizing: border-box;
+    font-family: open-sans;
+    color: black
+}
+p{
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+}
+.headers{
+    font-family: 'Shadows Into Light', cursive;
+}
+.nav li{
+    display: inline;
+}
+.nav ul{
+    margin: 0;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: .9em;
+    font-weight: lighter;
+    border-bottom: .5px solid rgba(87, 85, 85, 0.2);
+}
+
+.main-nav li{
+    padding: 0 10%;
+}
+.nav a:hover{
+    background-color: rgb(87,85,85,.4);
+}
+
+.kachowslees-logo{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-header{
+    background-color: rgba(218, 219, 219, 0.788);
+    padding-bottom: 30px;
+}
+.section-header{
+    text-align: center;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+.restaurant-name{
+    font-family: 'Lakki Reddy', cursive;
+    padding: .5em;
+}
+
+.main-footer {
+    background-color: rgba(218, 219, 219, 0.788);
+    color: white;
+    padding: .25em 0;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+.nav img{
+    width: 10px;
+    height: 10px;
+}
+.container{
+    text-align: auto;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container img{
+    height: 200px;
+    width: 200px;
+    display: block;
+
+}
+.content-section{
+    margin: 1em;
+}
+.section-titles{
+    padding: 0 .5em;
+    font-weight: bold;
+    margin: auto;
+    max-width: 900px;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+.main-button{
+    background-color: rgba(255, 0, 0, 0.03);
+}
+.main-button:hover{
+    background-color: rgba(255, 184, 179, 0.8);
+}
+.footer-image{
+    max-width: 80px;
+    max-height: 80px;
+}
+.store-image{
+    max-width: 150px;
+    max-height:150px;
+}
+.menu-image{
+    max-width: 150px;
+    max-height: 150px;
+}
+.footer-logo{
+    padding: .5em;
+}
+.price{
+    padding-right: .3em;
+}
