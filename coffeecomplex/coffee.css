@@ -1,0 +1,8 @@
+table {
+    table-layout: fixed ;
+    width: 90% ;
+  }
+  td {
+    width: 10% ;
+  }
+
